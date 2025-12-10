@@ -1,4 +1,4 @@
-/// <reference type="cypress"/>
+/// <reference types="cypress"/>
 import { faker } from '@faker-js/faker';
 
 describe('Funcionalidade: Cadastro', () => {
@@ -35,4 +35,8 @@ describe('Funcionalidade: Cadastro', () => {
         cy.get('.woocommerce-message').should('contain' , 'Detalhes da conta modificados com sucesso.')
     });
     
+    it.only('Deve completar o cadastro com sucesso - usando comandos customizado', () => {
+       cy.preCadrasto(faker.internet.email() , 'teste123456' , faker.person.firstName() , faker.person.lastName())
+       cy.get('.woocommerce-message').should('contain' , 'Detalhes da conta modificados com sucesso.')
+    });
 });

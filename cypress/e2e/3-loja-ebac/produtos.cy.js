@@ -1,4 +1,4 @@
-/// <reference type="cypress"/>
+/// <reference types="cypress"/>
 
 describe('Funcionalidade: Produtos', () => {
 
