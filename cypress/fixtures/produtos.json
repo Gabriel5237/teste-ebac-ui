@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Atlas Fitness Tank", 
+        "tamanho": "M",
+        "cor": "Blue",
+        "quantidade": 2
+    },
+    {
+        "nomeProduto": "Autumn Pullie", 
+        "tamanho": "M",
+        "cor": "Red",
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Thorpe Track Pant", 
+        "tamanho": "34",
+        "cor": "Black",
+        "quantidade": 4
+    }
+]
